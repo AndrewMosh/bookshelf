@@ -21,7 +21,6 @@ interface ChildProps {
 }
 
 export const ArticleCard: React.FC<ChildProps> = ({ item }) => {
-  console.log(item?.volumeInfo);
   const linkProps = {
     href: item?.volumeInfo.infoLink,
     target: "_blank",

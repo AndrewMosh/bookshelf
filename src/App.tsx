@@ -26,7 +26,7 @@ const App: React.FC = () => {
     <div className="App">
       <form
         className="form"
-        style={{ marginTop: !data ? "30vh" : "50px" }}
+        style={{ marginTop: !data ? "30vh" : "0" }}
         onSubmit={(e) => handleSubmit(e)}
         onClick={(e) => handleSubmit(e)}
       >

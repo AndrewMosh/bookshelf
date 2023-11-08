@@ -11,7 +11,7 @@ export function InputWithButton(props: TextInputProps) {
   const theme = useMantineTheme();
 
   return (
-    <div style={{ maxWidth: rem(700), margin: "50px auto" }}>
+    <div style={{ maxWidth: rem(700), margin: "35px auto 50px auto" }}>
       <TextInput
         radius="xl"
         size="md"

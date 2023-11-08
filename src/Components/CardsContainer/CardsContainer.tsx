@@ -9,8 +9,6 @@ interface ChildProps {
 const CardsContainer: React.FC<ChildProps> = ({ data }) => {
   if (!data) {
     return;
-  } else {
-    console.log(data.totalItems);
   }
   return (
     <div className={classes.CardsContainer}>

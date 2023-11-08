@@ -1,6 +1,6 @@
 import googleBook from "../../assets/googleBook.png";
-
-export const Logo = () => {
+import React from "react";
+export const Logo: React.FC = () => {
   return (
     <div className="logo">
       <a style={{ textDecoration: "none" }} href="/">

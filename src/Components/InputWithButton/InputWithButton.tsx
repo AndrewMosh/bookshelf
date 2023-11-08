@@ -6,8 +6,8 @@ import {
   rem,
 } from "@mantine/core";
 import { IconSearch, IconArrowRight } from "@tabler/icons-react";
-
-export function InputWithButton(props: TextInputProps) {
+import React from "react";
+export const InputWithButton: React.FC<TextInputProps> = (props) => {
   const theme = useMantineTheme();
 
   return (
@@ -40,4 +40,4 @@ export function InputWithButton(props: TextInputProps) {
       />
     </div>
   );
-}
+};

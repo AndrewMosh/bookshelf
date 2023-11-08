@@ -1,0 +1,12 @@
+.CardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 850px) {
+  .CardsContainer {
+    flex-direction: column;
+  }
+}

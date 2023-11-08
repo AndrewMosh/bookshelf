@@ -6,7 +6,7 @@ import {
   rem,
 } from "@mantine/core";
 import { IconSearch, IconArrowRight } from "@tabler/icons-react";
-import React from "react";
+
 export function InputWithButton(props: TextInputProps) {
   const theme = useMantineTheme();
 

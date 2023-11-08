@@ -1,5 +1,5 @@
 import googleBook from "../../assets/googleBook.png";
-import React from "react";
+
 export const Logo = () => {
   return (
     <div className="logo">
